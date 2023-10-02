@@ -1,0 +1,11 @@
+@model dotnetApp.Models.YetkiViewModel
+@{
+  ViewData["Title"] = "Yetkiye Bağlı Gruplar";
+  var boxViewModel = new BoxViewModel();
+  boxViewModel.Value = @Model.Id.ToString();
+}
+
+@await Html.PartialAsync("_BoxView",boxViewModel)
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/js/Yetki/yetkiGrup.js"></script>

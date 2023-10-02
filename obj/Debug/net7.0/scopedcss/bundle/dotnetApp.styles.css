@@ -1,0 +1,62 @@
+/* _content/dotnetApp/Views/Shared/_Layout.cshtml.rz.scp.css */
+
+#side_nav[b-hyybjboof6]{
+  background: #000;
+  min-width: 250px;
+  max-width: 250px;
+  transition: all 0.3s;
+}
+.content[b-hyybjboof6]{
+  min-height: 100vh;
+  height: 500px;
+  overflow: scroll;
+  width: 100%;
+}
+
+.btn-primary[b-hyybjboof6] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-hyybjboof6], .nav-pills .show > .nav-link[b-hyybjboof6] {
+  color: #fff;
+  background-color: #fff;
+  border-color: #1861ac;
+}
+
+.border-top[b-hyybjboof6] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-hyybjboof6] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-hyybjboof6] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-hyybjboof6] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-hyybjboof6] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+@media(max-width:767px){
+  #side_nav[b-hyybjboof6]{
+    margin-left: -250px;
+    position: fixed;
+    min-height: 100vh;
+    z-index: 1;
+  }
+  #side_nav.active[b-hyybjboof6]{
+    margin-left: 0;
+  }
+}

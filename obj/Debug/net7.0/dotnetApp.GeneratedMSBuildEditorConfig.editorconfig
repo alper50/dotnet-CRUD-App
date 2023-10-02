@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = dotnetApp
+build_property.RootNamespace = dotnetApp
+build_property.ProjectDir = /Users/alperen/Desktop/projects/dotnetApp/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/alperen/Desktop/projects/dotnetApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Grup/GrupKullanicilar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3J1cC9HcnVwS3VsbGFuaWNpbGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Grup/GrupYetkiler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3J1cC9HcnVwWWV0a2lsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Grup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3J1cC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Kullanici/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3VsbGFuaWNpL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Kullanici/KullaniciGruplar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3VsbGFuaWNpL0t1bGxhbmljaUdydXBsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Shared/_BoxView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Cb3hWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Shared/_FormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Gb3JtUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Yetki/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvWWV0a2kvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Yetki/YetkiGruplar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvWWV0a2kvWWV0a2lHcnVwbGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperen/Desktop/projects/dotnetApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hyybjboof6

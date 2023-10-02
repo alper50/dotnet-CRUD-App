@@ -1,0 +1,12 @@
+@model dotnetApp.Models.GrupViewModel
+
+@{
+  ViewData["Title"] = "Gruba Bağlı Kullanıcılar";
+  var boxViewModel = new BoxViewModel();
+  boxViewModel.Value = @Model.Id.ToString();
+}
+
+@await Html.PartialAsync("_BoxView",boxViewModel)
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/Grup/grupKullanici.js"></script>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - dotnetApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/dotnetApp.styles.css" asp-append-version="true" />
+</head>
+
+<body style="overflow: hidden;">
+    <div class="main-container d-flex">
+        <div class="sidebar" id="side_nav">
+            <ul class="flex-grow-1 list-unstyled">
+                <li>
+                    <a class="nav-link px-2 py-3" asp-controller="Home" asp-action="Index">Ana Sayfa</a>
+                </li>
+                <li>
+                    <a class="nav-link px-2 py-3 " asp-controller="Yetki" asp-action="Index">Yetkiler</a>
+                </li>
+                <li>
+                    <a class="nav-link px-2 py-3 " asp-controller="Grup" asp-action="Index">Yetki
+                        Grupları</a>
+                </li>
+                <li>
+                    <a class="nav-link px-2 py-3 " asp-controller="Kullanici" asp-action="Index">Kullanıcılar</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content px-3 pt-4">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
